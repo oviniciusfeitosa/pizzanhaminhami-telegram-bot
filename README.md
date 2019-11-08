@@ -4,7 +4,13 @@
 ```command
 $ npm install -g firebase-tools
 $ firebase login
+$ cd functions
+$ npm install
+```
 
+## Deploy
+```command
+$ firebase deploy --only functions
 ```
 
 ## References
