@@ -8,6 +8,9 @@ $ cd functions
 $ npm install
 ```
 
+## Functions
+- [router](https://us-central1-pizzacounterbot.cloudfunctions.net/router)
+
 ## Deploy
 ```command
 $ firebase deploy --only functions
