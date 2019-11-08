@@ -1,0 +1,19 @@
+{
+  "name": "firebase-telegram-bot",
+  "version": "1.0.0",
+  "description": "# Configs ```command $ npm install -g firebase-tools $ firebase login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnyfs89/firebase-telegram-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinnyfs89/firebase-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/vinnyfs89/firebase-telegram-bot#readme"
+}
