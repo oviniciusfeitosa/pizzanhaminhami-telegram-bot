@@ -1,6 +1,10 @@
-# firebase-telegram-bot
+# pizzanhaminhami-telegram-bot
 
-# Configs
+## Technologies
+- Firebase
+- Javascript
+
+## Configs
 ```command
 $ npm install -g firebase-tools
 $ firebase login
