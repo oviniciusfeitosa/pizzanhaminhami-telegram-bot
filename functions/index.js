@@ -6,11 +6,7 @@ const app = express();
 app.use(cors({origin: true}));
 
 app.post('/', async (request, response) => {
-    /*
-      You can put the logic you want here
-      the message receive will be in this
-      https://core.telegram.org/bots/api#update
-    */
+
     const isTelegramMessage = request.body
         && request.body.message.chat
         && request.body.message.chat.id
@@ -18,13 +14,14 @@ app.post('/', async (request, response) => {
         && request.body.message.from.first_name
     
     if (isTelegramMessage) {
-        const chat_id = request.body.message.chat.id;
-        const {first_name} = request.body.message.from;
+        const {title, type} = request.body.message.chat;
+        
+        const {first_name, username} = request.body.message.from;
         
         return response.status(200).send({
             method: 'sendMessage',
             chat_id,
-            text: `Hello ${first_name}`
+            text: `[${title}-${type}] Olá! ${first_name}(${username})!`
         })
     }
     
