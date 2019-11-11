@@ -33,8 +33,8 @@ $ firebase deploy --only functions
 - [ ] Get n show telegram chat id, title and type
 - [ ] Create telegram row in database for each telegram group when added with pattern `\{group_id}\{year}\{month}`
 - [ ] Create actions to show everything about Pizza Points of the group
-    - [ ] List - Shows the name of who needs to pay a pizza, pizza points(1/2 by each point) and the reasons why the user needs to pay.
-    - [ ] Cadastrar - Deve criar um subgrupo de acordo com o mês atual
+    - [ ] List - Shows the name of who needs to pay a pizza, pizza points(1/2 by each point) and the reasons why the user needs to pay
+    - [ ] Create - Must create a subgroup according to current year and month
 
 #### References
 - [Reference 1](https://medium.com/@pikilon/serverless-telegram-bot-with-firebase-d11d07579d8a)
