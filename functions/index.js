@@ -14,13 +14,13 @@ app.post('/', async (request, response) => {
         && request.body.message.from.first_name
     
     if (isTelegramMessage) {
-        const {title, type} = request.body.message.chat;
+        const {title, type, id} = request.body.message.chat;
         
         const {first_name, username} = request.body.message.from;
         
         return response.status(200).send({
             method: 'sendMessage',
-            chat_id,
+            id,
             text: `[${title}-${type}] Olá! ${first_name}(${username})!`
         })
     }
