@@ -39,3 +39,4 @@ $ firebase deploy --only functions
 #### References
 - [Reference 1](https://medium.com/@pikilon/serverless-telegram-bot-with-firebase-d11d07579d8a)
 - [Reference 2](https://core.telegram.org/bots/api#update)
+- [Commit Messages Convention (CMC)](https://github.com/devbrotherhood/cmc)
